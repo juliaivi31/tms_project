@@ -1,0 +1,2 @@
+import {registrationForm} from "./registration";
+
