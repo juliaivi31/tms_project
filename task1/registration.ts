@@ -9,6 +9,4 @@ export class registrationForm {
         this.age = age;
         this.phone = phone;
     };
-}
-// const reg = new registrationForm("1", "2", 20, 21212);
-// console.log(reg)
+};
