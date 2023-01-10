@@ -6,7 +6,9 @@
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts",
     "format:code": "prettier --write \"*.ts\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "allure:generate:report": "allure generate ./allure-results --clean",
+    "allure:open:report": "allure open"
   },
   "keywords": [],
   "author": "",
